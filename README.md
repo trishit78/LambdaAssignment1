@@ -246,6 +246,10 @@ Env variables are used only inside `server.config.ts`, exported as `config`
     
 -   Only access `process.env` inside the config file — nowhere else
 
+-   There is no strict timeline for the assignment attemp, as this is a self evaluation based assignment so you can do it at your own pace. Attempting it asap will help you to revise concepts easily. 
+
+-   You can try to read the `/tests/app.test.ts` for the details on the expectations from the test cases.
+
 -   If you are stuck somewhere, or find a concept new, then try to google it and read about it. Avoid usage of any AI tool like chat gpt, as the assignment is only for learning purpose and if you will not solve it yourself then this assignment is of no use to you.
     
 -   Keep the `app` export in `app.ts` **exactly as it is** — only add your implementation above it
