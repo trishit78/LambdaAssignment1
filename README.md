@@ -60,6 +60,8 @@ PASS  tests/structure.test.ts
 
 Ideally when you setup the code for the first time, you will se failures while running the `npm test ` command because the tests will try to validate the expectaions but as you have not written any code as of now so it's expected to fail. Once you start writing the implementation by reading the error logs coming then you will be able to see a lot of green ✅ while running the tests, if that's the case then you are going in a good direction. 
 
+Ideally after your complete implementation, all the tests should be running with success. 
+
 ----------
 
 ## 🧠 What You Need to Build
@@ -96,8 +98,6 @@ Your implementation must meet the following expectations:
 -   Export a `config` object containing:
     
     -   `PORT`
-        
-    -   `API_VERSION`
         
     -   `NODE_ENV`
         
@@ -239,6 +239,8 @@ Env variables are used only inside `server.config.ts`, exported as `config`
 -   Let the failing tests guide your implementation
     
 -   Only access `process.env` inside the config file — nowhere else
+
+-   If you are stuck somewhere, or find a concept new, then try to google it and read about it. Avoid usage of any AI tool like chat gpt, as the assignment is only for learning purpose and if you will not solve it yourself then this assignment is of no use to you.
     
 -   Keep the `app` export in `app.ts` **exactly as it is** — only add your implementation above it
     
