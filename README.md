@@ -23,8 +23,8 @@ Your task is to **build a fully structured Express.js app using TypeScript** tha
 ### 📥 Step 1: Clone the Test Repository
 
 ```bash
-git clone ...
-cd ...
+git clone https://github.com/singhsanket143/LambdaAssignment1.git
+cd LambdaAssignment1
 
 ```
 
@@ -216,12 +216,12 @@ Env variables are used only inside `server.config.ts`, exported as `config`
 ----------
 
 ## 🏁 Submission Guidelines
-
--   Push your completed code to GitHub or submit it as a ZIP folder
     
 -   Ensure that **all tests pass**
     
--   Do **not** include your `.env` file or `node_modules` in the submission
+-   To check if the tests are passing then run the `npm test` command and you should see an output similar to the below image.
+
+![image](/snaps/1.png)
     
 
 ----------
