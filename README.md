@@ -152,22 +152,28 @@ Your implementation must meet the following expectations:
 ## 📁 Required Folder Structure
 
 ```
+
 your-project/
-├── config/
-│   └── server.config.ts
-├── controllers/
-│   └── *.controller.ts
-├── routes/
-│   └── v1/
-│       └── v1Routes.ts
+├── src/
+│   ├── app.ts
+│   ├── config/
+│   │   └── server.config.ts
+│   ├── controllers/
+│   │   └── *.controller.ts
+│   ├── routes/
+│   │   └── v1/
+│   │       └── v1Routes.ts
 ├── tests/
-│   └── app.test.ts
-│   └── config.test.ts
+│   ├── app.test.ts
+│   ├── config.test.ts
 │   └── structure.test.ts
-├── app.ts
+├── tests.hash
+├── verify-tests.js
+├── generate-tests-hash.js
 ├── package.json
 ├── tsconfig.json
 └── ...
+
 
 ```
 
