@@ -58,6 +58,8 @@ PASS  tests/structure.test.ts
 
 ```
 
+Ideally when you setup the code for the first time, you will se failures while running the `npm test ` command because the tests will try to validate the expectaions but as you have not written any code as of now so it's expected to fail. Once you start writing the implementation by reading the error logs coming then you will be able to see a lot of green ✅ while running the tests, if that's the case then you are going in a good direction. 
+
 ----------
 
 ## 🧠 What You Need to Build
@@ -229,6 +231,8 @@ Env variables are used only inside `server.config.ts`, exported as `config`
 ## 💡 Tips
 
 -   The tests are strict — follow folder structure and naming exactly
+
+-   Make sure you read the logs coming while running the `npm test` command, they are going to guide you on what to do next in your implementation.
     
 -   Use TypeScript best practices (`Request`, `Response` types, etc.)
     
